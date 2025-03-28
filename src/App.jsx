@@ -6,9 +6,9 @@ function App() {
 
   //var nome = "Zacarias Jr.";
 
-  return (
-    <div>
-        <h3>Pizzaria 2F</h3>
+  const Fomulario = () => {
+    return (
+      <div>
         <input 
         className="nome"
         name = "nome"
@@ -20,6 +20,16 @@ function App() {
         className="botao">
           CLIQUE AQUI
         </button>
+      </div>
+    )
+  }
+
+  return (
+    <div>
+        <h3>Pizzaria 2F</h3>
+        <Fomulario />
+        <Fomulario />
+        <Fomulario />
     </div>
   )
 }
