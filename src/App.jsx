@@ -41,6 +41,8 @@ function App() {
         <Fomulario />
         <Fomulario />
         <Fomulario />
+
+        <p>MewTwo virou boneca depois que BITE se tornou ataque tipo DARK.</p>
     </div>
   )
 }
